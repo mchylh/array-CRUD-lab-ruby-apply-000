@@ -7,13 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  x=0
-  while x < element.length
-    array << (element[x])
-    x+=1
-  end
-  array.push("orange")
+  ["red", "blue", "green", "yellow"]
 end
+color = array.new
+color.push("orange")
 
 def add_element_to_start_of_array(array, element)
   []
