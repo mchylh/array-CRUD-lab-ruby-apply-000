@@ -16,14 +16,14 @@ def add_element_to_start_of_array(array, element)
   array.unshift(element)
 end
 
-def remove_element_from_end_of_array(array, element)
+def remove_element_from_end_of_array(array)
   ["red", "blue", "green", "yellow"]
-  array.pop(element)
+  array.pop(3)
 end
 
-def remove_element_from_start_of_array(array, element)
+def remove_element_from_start_of_array(array)
   ["red", "blue", "green", "yellow"]
-  array.shift(element)
+  array.shift(0)
 end
 
 def retrieve_element_from_index(array, index_number)
