@@ -33,10 +33,10 @@ end
 
 def retrieve_first_element_from_array(array)
   ["red", "blue", "green", "yellow"]
-  puts array.first
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
   ["red", "blue", "green", "yellow"]
-  puts array.last
+  array.last
 end
